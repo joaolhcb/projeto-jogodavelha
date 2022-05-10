@@ -64,7 +64,7 @@ function checaVencedor(){
     }
     
     if (checaSequencia(quadrado1, quadrado4, quadrado7)) {
-        mudaCorQuadrado(quadrado4, quadrado4, quadrado7);
+        mudaCorQuadrado(quadrado1, quadrado4, quadrado7);
         mudarVencedor(quadrado1);
         return;
     }
